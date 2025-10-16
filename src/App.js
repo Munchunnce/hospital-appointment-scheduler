@@ -47,7 +47,7 @@ export default function App() {
         <div className="flex gap-2">
           <button
             onClick={() => setView("day")}
-            className={`px-4 py-2 rounded font-medium ${
+            className={`px-4 py-2 rounded font-medium cursor-pointer ${
               view === "day"
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 hover:bg-gray-300"
@@ -57,7 +57,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView("week")}
-            className={`px-4 py-2 rounded font-medium ${
+            className={`px-4 py-2 rounded font-medium cursor-pointer ${
               view === "week"
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 hover:bg-gray-300"

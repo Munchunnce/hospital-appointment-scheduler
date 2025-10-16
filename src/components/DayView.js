@@ -43,7 +43,7 @@ export default function DayView({ appointments, selectedDoctorData }) {
           type="date"
           value={format(selectedDate, "yyyy-MM-dd")}
           onChange={(e) => setSelectedDate(new Date(e.target.value))}
-          className="border border-gray-300 rounded-lg px-3 py-2 text-gray-700 shadow-sm hover:border-blue-400 focus:outline-none focus:ring focus:ring-blue-200"
+          className="border border-gray-300 rounded-lg px-3 py-2 text-gray-700 shadow-sm hover:border-blue-400 focus:outline-none focus:ring focus:ring-blue-200 cursor-pointer"
         />
       </div>
 

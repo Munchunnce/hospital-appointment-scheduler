@@ -6,7 +6,7 @@ export default function DoctorDropdown({ doctors, selected, onChange }) {
     <select
       value={selected}
       onChange={(e) => onChange(e.target.value)}
-      className="border rounded-lg px-4 py-2 bg-white shadow focus:ring-2 focus:ring-blue-400"
+      className="border rounded-lg px-4 py-2 bg-white shadow focus:ring-2 focus:ring-blue-400 cursor-pointer"
     >
       <option value="">All Doctors</option>
       {doctors.map((doc) => (
