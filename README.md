@@ -2,6 +2,10 @@
 # Hospital Appointment Scheduler
 
 ![Hospital Appointment Scheduler Screenshot](./public/hospital-home.png)
+![Hospital Appointment Scheduler Time](./public/time.png)
+![Hospital Appointment Scheduler Day-view](./public/day-view.png)
+![Hospital Appointment Scheduler Screenshot](./public/week-view.png)
+
 
 A **React-based hospital appointment scheduler** that allows users to view appointments in **day and week views**. The project demonstrates clean architecture, responsive UI, and color-coded appointment types for better usability.
 
