@@ -48,8 +48,7 @@ A **React-based hospital appointment scheduler** that allows users to view appoi
 ## ⚡ Tech Stack
 
 - React.js  
-- Tailwind CSS  
-- Node.js + Express (Mock backend)  
+- Tailwind CSS
 - date-fns (Date utilities)  
 - Vercel (Deployment)
 
@@ -111,4 +110,3 @@ Then save the image as `screenshot.png` in the root of your repository.
 
 Prepared by **Vimal Kumar Chaudhary**
 Frontend Developer | Software Developer
-
