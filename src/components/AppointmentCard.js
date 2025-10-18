@@ -10,12 +10,12 @@ export default function AppointmentCard({ appointment, onClick }) {
       onClick={() => onClick?.(appointment)}
     >
       <div className="font-semibold">{appointment.patientName}</div>
-      <div className="text-xs">
-        {appointment.type} |{" "}
-        {new Date(appointment.startTime).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
-        {" - "}
-        {new Date(appointment.endTime).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
-      </div>
+        <div className="text-xs">
+          {appointment.type} |{" "}
+          {new Date(appointment.startTime).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+          {" - "}
+          {new Date(appointment.endTime).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+        </div>
     </div>
   );
 }
